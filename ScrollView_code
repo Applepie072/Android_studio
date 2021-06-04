@@ -1,0 +1,56 @@
+package com.apuli.practice001;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.res.Resources;
+import android.graphics.drawable.BitmapDrawable;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.ScrollView;
+
+public class MainActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        ScrollView scrollView = (ScrollView) findViewById(R.id.scrollView);
+        ImageView imageView = (ImageView) findViewById(R.id.image);
+        Button button = (Button) findViewById(R.id.button);
+
+        scrollView.setHorizontalScrollBarEnabled(true);
+        scrollView.setVerticalScrollBarEnabled(true);
+
+
+        Resources res = getResources();
+        BitmapDrawable bitmap = (BitmapDrawable) res.getDrawable(R.drawable.applepie);
+        int bitmapWidth = bitmap.getIntrinsicWidth();
+        int bitmapHeight = bitmap.getIntrinsicHeight();
+
+        imageView.setImageDrawable(bitmap);
+        imageView.getLayoutParams().width = bitmapWidth;
+        imageView.getLayoutParams().height = bitmapHeight;
+    }
+
+    public void onButton1Clicked(View v) {
+        changeImage();
+    }
+
+    private void changeImage() {
+        ImageView imageView = (ImageView) findViewById(R.id.image);
+
+        Resources res = getResources();
+        BitmapDrawable bitmap = (BitmapDrawable) res.getDrawable(R.drawable.enui);
+        int bitmapWidth = bitmap.getIntrinsicWidth();
+        int bitmapHeight = bitmap.getIntrinsicHeight();
+
+        imageView.setImageDrawable(bitmap);
+
+        imageView.getLayoutParams().width = bitmapWidth;
+        imageView.getLayoutParams().height = bitmapHeight;
+
+    }
+}
