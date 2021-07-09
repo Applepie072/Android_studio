@@ -71,7 +71,7 @@
 
                 android:text="- 발전과제 제목"
                 android:textColor="@color/white"
-                android:textSize="23dp"/>
+                android:textSize="21dp"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -79,7 +79,7 @@
 
                 android:text="Advancement GUI name"
                 android:textColor="@color/white"
-                android:textSize="23dp"/>
+                android:textSize="21dp"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -88,7 +88,7 @@
 
                 android:text="- 발전과제의 달성 이유"
                 android:textColor="@color/white"
-                android:textSize="23dp"/>
+                android:textSize="21dp"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -96,7 +96,7 @@
 
                 android:text="Advancement description"
                 android:textColor="@color/white"
-                android:textSize="23dp"/>
+                android:textSize="21dp"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -105,7 +105,7 @@
 
                 android:text="- 발전과제 표시 아이콘"
                 android:textColor="@color/white"
-                android:textSize="23dp"/>
+                android:textSize="21dp"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -113,7 +113,7 @@
 
                 android:text="Advancement icon"
                 android:textColor="@color/white"
-                android:textSize="23dp"/>
+                android:textSize="21dp"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -122,7 +122,7 @@
 
                 android:text="- 발전과제 타입"
                 android:textColor="@color/white"
-                android:textSize="23dp"/>
+                android:textSize="21dp"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -130,7 +130,7 @@
 
                 android:text="Advancement type"
                 android:textColor="@color/white"
-                android:textSize="23dp"/>
+                android:textSize="21dp"/>
 
         </LinearLayout>
     </ScrollView>
