@@ -84,8 +84,51 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
 
-                android:text="Advancement GUI name"
+                android:text="- 발전과제의 달성 이유"
+                android:textColor="@color/white"
+                android:textSize="23dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Advancement description"
+                android:textColor="@color/white"
+                android:textSize="23dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+
+                android:text="- 발전과제 표시 아이콘"
+                android:textColor="@color/white"
+                android:textSize="23dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Advancement icon"
+                android:textColor="@color/white"
+                android:textSize="23dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+
+                android:text="- 발전과제 타입"
+                android:textColor="@color/white"
+                android:textSize="23dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Advancement type"
                 android:textColor="@color/white"
                 android:textSize="23dp"/>
 
