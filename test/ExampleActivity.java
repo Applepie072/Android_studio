@@ -1,4 +1,4 @@
- package com.apuli.test;
+package com.apuli.test;
 
 import androidx.appcompat.app.AppCompatActivity;
 
