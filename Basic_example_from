@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#323232"
+    tools:context=".example.Example_Advancement">
+
+    //Round_background
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="331dp"
+
+        tools:ignore="MissingConstraints"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="360dp"
+            android:layout_height="360dp"
+
+            android:background="@drawable/main_round_background"
+            android:backgroundTint="#99373668"
+
+            android:translationX="-40dp"
+            android:translationY="-90dp"
+            android:rotation="40"
+
+            tools:ignore="MissingConstraints"/>
+
+    </LinearLayout>
+
+    //Main_Title
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text=""
+            android:textSize="50dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+
+            android:layout_marginLeft="15dp"/>
+
+    </LinearLayout>
+
+    //example_text
+    <ScrollView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:translationY="130dp"
+        android:translationX="30dp"
+        android:orientation="vertical"
+        android:id="@+id/example_scrollView_text"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="- 발전과제 제목"
+                android:textColor="@color/white"
+                android:textSize="23dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
