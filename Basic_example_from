@@ -68,8 +68,17 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
 
-                android:text="- 발전과제 제목"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="23dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text=""
                 android:textColor="@color/white"
                 android:textSize="23dp"/>
 
