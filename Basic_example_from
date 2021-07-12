@@ -52,9 +52,9 @@
 
     //example_text
     <ScrollView
-        android:layout_width="350dp"
-        android:layout_height="wrap_content"
-        android:translationY="130dp"
+        android:layout_width="380dp"
+        android:layout_height="550에"
+        android:translationY="110dp"
         android:translationX="30dp"
         android:orientation="vertical"
         android:id="@+id/example_scrollView_text"
@@ -74,15 +74,22 @@
                 android:textColor="@color/white"
                 android:textSize="21dp"/>
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-
-                android:text=""
-                android:textColor="@color/white"
-                android:textSize="21dp"/>
-
         </LinearLayout>
     </ScrollView>
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/example_back"
+        tools:ignore="MissingConstraints"
+
+        android:text="Back"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+
+        android:translationX="280dp"
+        android:translationY="670dp"
+
+        android:backgroundTint="#252525"/>
+    
 </androidx.constraintlayout.widget.ConstraintLayout>
