@@ -53,7 +53,7 @@
     //example_text
     <ScrollView
         android:layout_width="380dp"
-        android:layout_height="550에"
+        android:layout_height="550"
         android:translationY="110dp"
         android:translationX="30dp"
         android:orientation="vertical"
