@@ -80,7 +80,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/example_back"
+        android:id="@+id/"
         tools:ignore="MissingConstraints"
 
         android:text="Back"
