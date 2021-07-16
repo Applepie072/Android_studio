@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.apuli.test">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Test">
+        <activity android:name=".example.gui.component_list.Example_GUI_Component_list_Output"></activity>
+        <activity android:name=".example.gui.component_list.Example_GUI_Component_list_Input" />
+        <activity android:name=".example.gui.component_list.Example_GUI_Component_list_Image" />
+        <activity android:name=".example.gui.component_list.Example_GUI_Component_list_Button" />
+        <activity android:name=".example.gui.component_list.Example_GUI_Component_list_label" />
+        <activity android:name=".example.gui.Example_GUI_Component_list" />
+        <activity android:name=".example.gui.Example_GUI_Editor_options" />
+        <activity android:name=".example.gui.Example_GUI_Properties" />
+        <activity android:name=".example.Example_GUI" />
+        <activity android:name=".example.tool.Example_Tool_Properties" />
+        <activity android:name=".example.tool.Example_Tool_Visual" />
+        <activity android:name=".example.Example_Tool" />
+        <activity android:name=".example.ranged_item.Example_Ranged_item_Bullet" />
+        <activity android:name=".example.ranged_item.Example_Ranged_item_Ranged_item" />
+        <activity android:name=".example.Example_Ranged_item" />
+        <activity android:name=".example.living_entity.Example_Living_entity_Spawning" />
+        <activity android:name=".example.living_entity.Example_Living_entity_Inventory" />
+        <activity android:name=".example.living_entity.Example_Living_entity_Particles" />
+        <activity android:name=".example.living_entity.Example_Living_entity_Behaviour" />
+        <activity android:name=".example.living_entity.Example_Living_entity_Visual_and_Sound" />
+        <activity android:name=".example.Example_Living_entity" />
+        <activity android:name=".example.item.Example_Item_Inventory" />
+        <activity android:name=".example.item.Example_Item_Properties" />
+        <activity android:name=".example.item.Example_Item_Visual" />
+        <activity android:name=".example.Example_Item" />
+        <activity android:name=".example.Example_Fuel" />
+        <activity android:name=".example.food.Example_Food_Properties" />
+        <activity android:name=".example.food.Example_Food_Visual" />
+        <activity android:name=".example.Example_Food" />
+        <activity android:name=".example.fluid.Example_Fluid_Generation" />
+        <activity android:name=".example.fluid.Example_Fluid_Properties" />
+        <activity android:name=".example.fluid.Example_Fluid_Visual" />
+        <activity android:name=".example.Example_Fluid" />
+        <activity android:name=".example.dimension.Example_Dimension_Portal" />
+        <activity android:name=".example.dimension.Example_Dimension_Properties" />
+        <activity android:name=".example.Example_Dimension" />
+        <activity android:name=".example.Example_Creative_tab" />
+        <activity android:name=".example.Example_Command" />
+        <activity android:name=".example.block.Example_Block_Generation" />
+        <activity android:name=".example.block.Example_Block_Energy_fluid_storage" />
+        <activity android:name=".example.block.Example_Block_Tile_entity" />
+        <activity android:name=".example.block.Example_Block_Advanced_properties" />
+        <activity android:name=".example.block.Example_Block_Properties" />
+        <activity android:name=".example.block.Example_Block_Visual" />
+        <activity android:name=".example.Example_Block" />
+        <activity android:name=".example.Example_Armor" />
+        <activity android:name=".example.Example_Advancement" />
+        <activity android:name=".SupportActivity" />
+        <activity android:name=".ExplanationActivity" />
+        <activity android:name=".MovieActivity" />
+        <activity android:name=".ExampleActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
