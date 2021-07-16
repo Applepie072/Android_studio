@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#323232"
+    tools:context=".example.ranged_item.Example_Ranged_item_Ranged_item">
+
+    //Round_background
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="331dp"
+
+        tools:ignore="MissingConstraints"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="360dp"
+            android:layout_height="360dp"
+
+            android:background="@drawable/main_round_background"
+            android:backgroundTint="#99373668"
+
+            android:translationX="-40dp"
+            android:translationY="-90dp"
+            android:rotation="40"
+
+            tools:ignore="MissingConstraints"/>
+
+    </LinearLayout>
+
+    //Main_Title
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Ranged item"
+            android:textSize="50dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+
+            android:layout_marginLeft="15dp"/>
+
+    </LinearLayout>
+
+    //example_text
+    <ScrollView
+        android:layout_width="380dp"
+        android:layout_height="530dp"
+        android:translationY="110dp"
+        android:translationX="30dp"
+        android:orientation="vertical"
+        android:id="@+id/example_scrollView_text"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+
+                android:text="- 텍스처\nTexture"
+                android:textColor="@color/white"
+                android:textSize="21dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+
+                android:text="- 아이템 모델\nItem model"
+                android:textColor="@color/white"
+                android:textSize="21dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+
+                android:text="- 아이템 이름\nName in GUI"
+                android:textColor="@color/white"
+                android:textSize="21dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+
+                android:text="- 아이템 정보\nSpecial information about\nthe ranged item"
+                android:textColor="@color/white"
+                android:textSize="21dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+
+                android:text="- 아이템 분류 탭\nCreative inventory tab"
+                android:textColor="@color/white"
+                android:textSize="21dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+
+                android:text="- 사용 모션\nItem animation"
+                android:textColor="@color/white"
+                android:textSize="21dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+
+                android:text="- 인벤토리 슬롯당 최대 개수\nMax stack size"
+                android:textColor="@color/white"
+                android:textSize="21dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+
+                android:text="- 데미지\nDamage vs mob/animal"
+                android:textColor="@color/white"
+                android:textSize="21dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+
+                android:text="- 연사 여부\nShoot constantly when active\n(체크 X : 활과 같음)"
+                android:textColor="@color/white"
+                android:textSize="21dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+
+                android:text="- 내구력\nItem usage count"
+                android:textColor="@color/white"
+                android:textSize="21dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+
+                android:text="- 사용시 재생 사운드\nRanged action sound"
+                android:textColor="@color/white"
+                android:textSize="21dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+
+                android:text="- 아이템 광원 효과 여부\nEnable glowing effect"
+                android:textColor="@color/white"
+                android:textSize="21dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/example_ranged_item_back"
+        tools:ignore="MissingConstraints"
+
+        android:text="Back"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+
+        android:translationX="280dp"
+        android:translationY="670dp"
+
+        android:backgroundTint="#252525"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

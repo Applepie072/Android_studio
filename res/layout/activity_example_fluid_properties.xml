@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#323232"
+    tools:context=".example.fluid.Example_Fluid_Properties">
+
+    //Round_background
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="331dp"
+
+        tools:ignore="MissingConstraints"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="360dp"
+            android:layout_height="360dp"
+
+            android:background="@drawable/main_round_background"
+            android:backgroundTint="#99373668"
+
+            android:translationX="-40dp"
+            android:translationY="-90dp"
+            android:rotation="40"
+
+            tools:ignore="MissingConstraints"/>
+
+    </LinearLayout>
+
+    //Main_Title
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Fluid"
+            android:textSize="50dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+
+            android:layout_marginLeft="15dp"/>
+
+    </LinearLayout>
+
+    //example_text
+    <ScrollView
+        android:layout_width="380dp"
+        android:layout_height="530dp"
+        android:translationY="110dp"
+        android:translationX="30dp"
+        android:orientation="vertical"
+        android:id="@+id/example_scrollView_text"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+
+                android:text="- 광원 강도\nLuminosity"
+                android:textColor="@color/white"
+                android:textSize="21dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+
+                android:text="- 밀도\nDensity"
+                android:textColor="@color/white"
+                android:textSize="21dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+
+                android:text="- 점도\nViscosity"
+                android:textColor="@color/white"
+                android:textSize="21dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+
+                android:text="- 가스 생성 여부\nIs this fluid gas"
+                android:textColor="@color/white"
+                android:textSize="21dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+
+                android:text="- 액체 유체의 타입\nFluid type"
+                android:textColor="@color/white"
+                android:textSize="21dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+
+                android:text="- 양동이 텍스처 자동 완성 여부\nSelect if this fluid should have own bucket generated automatically"
+                android:textColor="@color/white"
+                android:textSize="21dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="(고여있는 물 텍스처 기반으로 생성)"
+                android:textColor="@color/white"
+                android:textSize="21dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+
+                android:text="- 양동이 분류 탭\nCreative inventory tab"
+                android:textColor="@color/white"
+                android:textSize="21dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/example_fluid_back"
+        tools:ignore="MissingConstraints"
+
+        android:text="Back"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+
+        android:translationX="280dp"
+        android:translationY="670dp"
+
+        android:backgroundTint="#252525"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

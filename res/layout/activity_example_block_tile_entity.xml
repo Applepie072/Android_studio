@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#323232"
+    tools:context=".example.block.Example_Block_Tile_entity">
+
+    //Round_background
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="331dp"
+
+        tools:ignore="MissingConstraints"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="360dp"
+            android:layout_height="360dp"
+
+            android:background="@drawable/main_round_background"
+            android:backgroundTint="#99373668"
+
+            android:translationX="-40dp"
+            android:translationY="-90dp"
+            android:rotation="40"
+
+            tools:ignore="MissingConstraints"/>
+
+    </LinearLayout>
+
+    //Main_Title
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Block"
+            android:textSize="50dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+
+            android:layout_marginLeft="15dp"/>
+
+    </LinearLayout>
+
+    //example_text
+    <ScrollView
+        android:layout_width="380dp"
+        android:layout_height="530dp"
+        android:translationY="110dp"
+        android:translationX="30dp"
+        android:orientation="vertical"
+        android:id="@+id/example_scrollView_text"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+
+                android:text="- 타일 엔티티 활성화 여부\nEnable tile entity for this block.\nCheck this box if you want any of these"
+                android:textColor="@color/white"
+                android:textSize="21dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+
+                android:text="- 블록의 GUI가 있는 경우\nBind this block to GUI"
+                android:textColor="@color/white"
+                android:textSize="21dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+
+                android:text="- 우클릭 시 블록 GUI 열기 여부\nOpen bound GUI on right-click"
+                android:textColor="@color/white"
+                android:textSize="21dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+
+                android:text="- GUI 인벤토리에 사용할 수 있는 수\nSize of inventory (slot count)"
+                android:textColor="@color/white"
+                android:textSize="21dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+
+                android:text="- 한칸당 넣을 수 있는 아이템 개수\nMax stack size"
+                android:textColor="@color/white"
+                android:textSize="21dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+
+                android:text="- 블록 파괴시 내용물 드롭 여부\nDrop items from inventory\nwhen block destroyed"
+                android:textColor="@color/white"
+                android:textSize="21dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+
+                android:text="- 비교기와의 작동 가능 여부\nEnable block output comparator data"
+                android:textColor="@color/white"
+                android:textSize="21dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+
+                android:text="- 슬롯에서 가져오기 비활성화\nDisable taking from the following slots"
+                android:textColor="@color/white"
+                android:textSize="21dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+
+                android:text="- 슬롯에 삽입 비활성화\nDisable inserting into the following slots"
+                android:textColor="@color/white"
+                android:textSize="21dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/example_block_back"
+        tools:ignore="MissingConstraints"
+
+        android:text="Back"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+
+        android:translationX="280dp"
+        android:translationY="670dp"
+
+        android:backgroundTint="#252525"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

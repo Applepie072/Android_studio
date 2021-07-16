@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#323232"
+    tools:context=".example.Example_Advancement">
+
+    //Round_background
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="331dp"
+
+        tools:ignore="MissingConstraints"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="360dp"
+            android:layout_height="360dp"
+
+            android:background="@drawable/main_round_background"
+            android:backgroundTint="#99373668"
+
+            android:translationX="-40dp"
+            android:translationY="-90dp"
+            android:rotation="40"
+
+            tools:ignore="MissingConstraints"/>
+
+    </LinearLayout>
+
+    //Main_Title
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Advancement"
+            android:textSize="50dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+
+            android:layout_marginLeft="15dp"/>
+
+    </LinearLayout>
+
+    //example_text
+    <ScrollView
+        android:layout_width="380dp"
+        android:layout_height="530dp"
+        android:translationY="110dp"
+        android:translationX="30dp"
+        android:orientation="vertical"
+        android:id="@+id/example_scrollView_text"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="- 발전과제 제목\nAdvancement GUI name"
+                android:textColor="@color/white"
+                android:textSize="21dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+
+                android:text="- 발전과제의 달성 이유\nAdvancement description"
+                android:textColor="@color/white"
+                android:textSize="21dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+
+                android:text="- 발전과제 표시 아이콘\nAdvancement icon"
+                android:textColor="@color/white"
+                android:textSize="21dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+
+                android:text="- 발전과제 타입\nAdvancement type"
+                android:textColor="@color/white"
+                android:textSize="21dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="     ‣ task : 작업\n     ‣ goal : 골인\n     ‣ challenge : 도전"
+                android:textColor="@color/white"
+                android:textSize="21dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+
+                android:text="- 발전과제 연계 옵션\nAdvancement parent"
+                android:textColor="@color/white"
+                android:textSize="21dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="     ‣ No parent: root (새 경로 생성)\n     ‣ Custom : {발전과제}\n        (해당 커스텀 발전 과제에 연계)"
+                android:textColor="@color/white"
+                android:textSize="21dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+
+                android:text="- 발전과제 클리어 알림 여부\nShow toast when completed"
+                android:textColor="@color/white"
+                android:textSize="21dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+
+                android:text="- 발전과제 클리어 채팅 표시 여부\nAnnounce to chat when completed"
+                android:textColor="@color/white"
+                android:textSize="21dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+
+                android:text="- 발전과제 완료전 발전과제 숨김 여부\nHide if not completed yet"
+                android:textColor="@color/white"
+                android:textSize="21dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+
+                android:text="- 발전과제의 완전한 숨김 여부\nHide advancement display\n(Secret advancement)"
+                android:textColor="@color/white"
+                android:textSize="21dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+
+                android:text="- 발전과제 클리어시 받는 경험치\nReward XP"
+                android:textColor="@color/white"
+                android:textSize="21dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+
+                android:text="- 발전과제 클리어시 실행할 기능\nReward function"
+                android:textColor="@color/white"
+                android:textSize="21dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+
+                android:text="- 발전과제 클리어시 전리품 획득 기능\nReward loot tables"
+                android:textColor="@color/white"
+                android:textSize="21dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+
+                android:text="- 발전과제 클리어시 배우지 않은 레시피\n  잠금 해제 기능\nReward recipes"
+                android:textColor="@color/white"
+                android:textSize="21dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/example_back"
+        tools:ignore="MissingConstraints"
+
+        android:text="Back"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+
+        android:translationX="280dp"
+        android:translationY="670dp"
+
+        android:backgroundTint="#252525"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2D2D2D"
+    tools:context=".ExplanationActivity">
+
+    //Round_background
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="331dp"
+
+        tools:ignore="MissingConstraints"
+        android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="360dp"
+        android:layout_height="360dp"
+
+        android:background="@drawable/main_round_background"
+        android:backgroundTint="#992F3239"
+
+        android:translationX="-40dp"
+        android:translationY="-90dp"
+        android:rotation="40"
+
+        tools:ignore="MissingConstraints"/>
+
+    </LinearLayout>
+
+    //MainTitle
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="What is?"
+            android:textSize="50dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+
+            android:layout_marginLeft="15dp"/>
+
+    </LinearLayout>
+
+    //Text
+    <LinearLayout
+        android:layout_width="410dp"
+        android:layout_height="410dp"
+        android:background="@drawable/main_shape_glowing_background"
+        tools:ignore="MissingConstraints"
+        android:translationY="80dp">
+
+        <TextView
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="38dp"
+            android:layout_marginTop="32dp"
+
+            android:text="MCreator is open source software used to make Minecraft Java Edition mods, Minecraft Bedrock Edition Add-Ons, and data packs using an intuitive easy-to-learn interface or with an integrated code editor. It is used worldwide by Minecraft players, aspiring mod developers, for education, online classes, and STEM workshops."
+            android:textColor="@color/white"
+            android:textSize="23dp"/>
+
+    </LinearLayout>
+
+    //Button
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:translationY="540dp"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:layout_width="180dp"
+            android:layout_height="60dp"
+            android:id="@+id/explanation_example"
+
+            android:text="Activity"
+            android:textColor="@color/white"
+            android:textSize="22dp"
+
+            android:layout_marginLeft="20dp"
+
+            android:backgroundTint="#3B3F37"/>
+
+        <Button
+            android:layout_width="140dp"
+            android:layout_height="60dp"
+            android:id="@+id/explanation_movie"
+
+            android:text="movie"
+            android:textColor="@color/white"
+            android:textSize="22dp"
+
+            android:layout_marginLeft="50dp"
+
+            android:backgroundTint="#3B3F37"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/explanation_back"
+        tools:ignore="MissingConstraints"
+
+        android:text="Back"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+
+        android:translationX="280dp"
+        android:translationY="650dp"
+
+        android:backgroundTint="#3B3F47"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
